@@ -1,4 +1,4 @@
-import {Button, Htag} from "../components";
+import {Button, Htag, Tag} from "../components";
 import Paragraph from "../components/Paragraph/Paragraph";
 
 export default function Home(): JSX.Element {
@@ -13,6 +13,12 @@ export default function Home(): JSX.Element {
             <Paragraph> 14px</Paragraph>
             <Paragraph fz={'16px'}>16px</Paragraph>
             <Paragraph fz={'18px'}>18px</Paragraph>
+            <hr/>
+            <Tag appearance={'ghost'}> Ghost </Tag>
+            <Tag> Ghost </Tag>
+            <Tag appearance={'green'}>Green</Tag>
+            <Tag appearance={'red'} href={'https://hh.ru'}>hh.ru</Tag>
+            <Tag appearance={'primary'}>Primary</Tag>
         </div>
     );
 }
