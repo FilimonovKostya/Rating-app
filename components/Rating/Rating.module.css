@@ -1,7 +1,12 @@
 .star {
     display: inline-block;
+    margin-right: 5px;
 }
 
-.star svg {
-    fill: blue;
+.active {
+    fill: var(--primary);
+}
+
+.notActive {
+    fill: var(--not-active);
 }
